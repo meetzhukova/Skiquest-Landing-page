@@ -14,11 +14,13 @@ The goal was to create a clean, modern, and engaging landing page that helps use
 - Difficult Booking Process
 
 ## Solving
-- **Simplified Navigation:** We created a clean, intuitive menu and clear sections so users can quickly find skipasses, lessons, and resort info <br>
+- **Simplified Navigation:** We created a clean, intuitive menu and clear sections so users can quickly find skipasses, <br>
+lessons, and resort info <br>
 
 - **Streamlined Booking Process:** Skipass and lesson booking flows were redesigned for simplicity, reducing clicks and friction <br>
 
-- **Optimized Loading Times:** High-resolution images were compressed and lazy-loaded to ensure fast performance on desktop and mobile <br>
+- **Optimized Loading Times:** High-resolution images were compressed and lazy-loaded to ensure fast performance <br>
+on desktop and mobile <br>
 
 - **Mobile-Friendly Design:** Fully responsive layout with touch-friendly buttons and simplified mobile navigation <br>
 
