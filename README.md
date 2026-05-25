@@ -21,10 +21,10 @@ The goal was to create a clean, modern, and engaging landing page that helps use
 **Up-to-Date Information:** Dynamic content sections for real-time pricing, weather updates, and trail status <br>
  
 ## Typography
-#### Headers
+#### *Headers*
 **Roc Grotesk:** Compressed Extra Bold & Condensed Extra Bold
 
-#### Body text
+#### *Body text*
 **Raleway:** Regular & Medium
 
 ## Colors
