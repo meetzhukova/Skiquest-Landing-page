@@ -30,7 +30,7 @@ Raleway: Regular & Medium
 ## Colors
 **#FF4D00** – Accent <br>
 **#212121** – Background <br>
-**linear-gradient(84deg, #FFF -2.58%, #D2D2D2 102.82%)** – Linear gradient for border boxes <br>
+**84deg, #FFF -2.58%, #D2D2D2 102.82%)** – Linear gradient for border boxes <br>
 **#303030** – Boxes <br>
 **#FFFFFF** – Text <br>
 
