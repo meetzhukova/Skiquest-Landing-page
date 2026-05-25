@@ -22,10 +22,10 @@ The goal was to create a clean, modern, and engaging landing page that helps use
  
 ## Typography
 #### Headers
-Roc Grotesk: Compressed Extra Bold & Condensed Extra Bold
+**Roc Grotesk:** Compressed Extra Bold & Condensed Extra Bold
 
 #### Body text
-Raleway: Regular & Medium
+**Raleway:** Regular & Medium
 
 ## Colors
 **#FF4D00** – Accent <br>
@@ -35,5 +35,5 @@ Raleway: Regular & Medium
 **#FFFFFF** – Text <br>
 
 ## Links
-**Behance:** https://www.behance.net/gallery/237206563/Skiquest-Web-UIUX-Case-Study
+**Behance:** https://www.behance.net/gallery/237206563/Skiquest-Web-UIUX-Case-Study <br>
 **Instagram:** https://www.instagram.com/meetzhukova/
