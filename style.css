@@ -99,6 +99,53 @@ header nav a {
     text-transform: uppercase;
 }
 
-.headerRight h1 span {
+.headerRight h1 span:not(.badgeAnchor) {
     color: var(--Accent, #FF4D00);
 }
+
+/* ----- HEADER BADGE ----- */
+
+.badgeAnchor {
+    position: relative;
+    color: #FFF !important;
+}
+
+.headerBadge {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -50px;
+    margin-left: -70px;
+}
+
+.headerBadge svg {
+    position: relative;
+    inset: 0;
+    width: 118px;
+    height: 118px;
+}
+
+.headerBadge p {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    width: 79px;
+    height: 42px;
+    transform: rotate(21.605deg);
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Roc Grotesk";
+    font-size: 21px;
+    font-stretch: condensed;
+    font-weight: 750;
+    line-height: 98%; /* 20.58px */
+    letter-spacing: -0.21px;
+    text-transform: uppercase;
+}
+
