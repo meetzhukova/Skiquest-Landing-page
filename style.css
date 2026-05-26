@@ -45,6 +45,8 @@ body {
     font-weight: 700;
     font-stretch: normal;
     font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .header nav ul {
@@ -61,30 +63,109 @@ header nav a {
 }
 
 /* ----- HERO IMAGE ----- */
-.heroImg {
-    display: flex;
+.hero-bg {
+    position: fixed;
     width: 100%;
-    height: auto;
-    position: absolute;
+    height: 100vh;
     left: 0;
     top: 0;
+    object-fit: cover;
+    object-position: top center;
     z-index: -1;
+}
+
+.hero-img {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    object-position: top center;
+    z-index: -2;
 }
 
 /* ----- HERO SECTION ----- */
 .hero {
+    position: relative;
     display: flex;
+    align-items: flex-end;
 
     width: 100%;
     height: auto;
     margin-top: 66px;
 }
 
-.headerRight {
+/* ----- HEADER LEFT ----- */
+.header-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.header-left p {
+    width: 420px;
+    margin-left: 273px;
+    margin-bottom: 170px;
+}
+
+.header-date {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    bottom: -120px;
+}
+
+.header-date h1 {
+    white-space: nowrap;
+
+    color: #FFF;
+    text-align: right;
+    font-family: "Roc Grotesk";
+    font-size: 100px;
+    font-stretch: extra-condensed;
+    font-weight: 750;
+    line-height: 98%; /* 117.6px */
+    letter-spacing: -1.2px;
+    text-transform: uppercase;
+}
+
+/* ----- JOIN US ----- */
+
+.join {
+    display: flex;
+    gap: 16px;
+}
+
+.join svg {
+    width: 81px;
+    height: 22px;
+
+    margin-top: 45px;
+}
+
+.join h2 {
+    white-space: nowrap;
+
+    color: var(--Accent, #FF4D00);
+    text-align: right;
+    font-family: "Roc Grotesk";
+    font-size: 50px;
+    font-stretch: extra-condensed;
+    font-weight: 700;
+    line-height: 98%; /* 49px */
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
+
+/* ----- HEADER RIGHT ----- */
+
+.header-right {
     margin-left: auto;
 }
 
-.headerRight h1 {
+.header-right h1 {
     width: 444px;
     height: 464px;
 
@@ -99,18 +180,18 @@ header nav a {
     text-transform: uppercase;
 }
 
-.headerRight h1 span:not(.badgeAnchor) {
+.header-right h1 span:not(.badgeAnchor) {
     color: var(--Accent, #FF4D00);
 }
 
 /* ----- HEADER BADGE ----- */
 
-.badgeAnchor {
+.badge-anchor {
     position: relative;
     color: #FFF !important;
 }
 
-.headerBadge {
+.header-badge {
     position: absolute;
     display: flex;
     align-items: center;
@@ -120,14 +201,14 @@ header nav a {
     margin-left: -70px;
 }
 
-.headerBadge svg {
+.header-badge svg {
     position: relative;
     inset: 0;
     width: 118px;
     height: 118px;
 }
 
-.headerBadge p {
+.header-badge p {
     position: absolute;
     display: flex;
     align-items: center;
@@ -148,4 +229,3 @@ header nav a {
     letter-spacing: -0.21px;
     text-transform: uppercase;
 }
-
