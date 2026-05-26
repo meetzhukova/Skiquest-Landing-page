@@ -107,7 +107,7 @@ header nav a {
 .header-left p {
     width: 420px;
     margin-left: 273px;
-    margin-bottom: 170px;
+    margin-bottom: 100px;
 }
 
 .header-date {
@@ -232,8 +232,16 @@ header nav a {
 }
 
 /* ----- ABOUT SECTION ----- */
+.about {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 170px;
+}
+
 .about-headline {
     display: flex;
+    flex-direction: row;
     position: relative;
     align-items: center;
     justify-content: space-between;
@@ -245,7 +253,7 @@ header nav a {
 .about-headline h1 {
     color: #FFF;
     font-family: "Roc Grotesk";
-    font-size: 200px;
+    font-size: 212px;
     white-space: nowrap;
     font-stretch: extra-condensed;
     font-style: normal;
@@ -254,14 +262,78 @@ header nav a {
     letter-spacing: -1.8px;
     text-transform: uppercase;
     z-index: 1;
+
+    margin: 0;
 }
 
 .about-headline img {
     position: absolute;
     top: 50%;
     right: 0;
-    width: 530px;
-    height: 777px;
+    width: 500px;
+    height: 750px;
     transform: translateY(-50%) rotate(8deg);
     z-index: 2;
+}
+
+/* ----- ABOUT BADGE ----- */
+
+.about-badge {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -230px;
+    margin-left: 210px;
+}
+
+.about-badge svg {
+    position: relative;
+    inset: 0;
+    width: 136px;
+    height: 136px;
+}
+
+.about-badge p {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Roc Grotesk";
+    font-size: 21px;
+    font-stretch: condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 20.58px */
+    letter-spacing: -0.21px;
+    text-transform: uppercase;
+    transform: rotate(-15.418deg);
+}
+
+
+/* ----- ABOUT SUBTITLE ----- */
+.about-sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-left {
+    
+}
+
+.sub-left p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 21.56px */
+    letter-spacing: -0.22px;
+
+    margin: 0;
 }
