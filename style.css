@@ -88,8 +88,8 @@ header nav a {
 
 /* ----- HERO SECTION ----- */
 .hero {
-    position: relative;
     display: flex;
+    position: relative;
     align-items: flex-end;
 
     width: 100%;
@@ -111,8 +111,8 @@ header nav a {
 }
 
 .header-date {
-    position: relative;
     display: flex;
+    position: relative;
     align-items: center;
     gap: 40px;
     bottom: -120px;
@@ -193,8 +193,8 @@ header nav a {
 }
 
 .header-badge {
-    position: absolute;
     display: flex;
+    position: absolute;
     align-items: center;
     justify-content: center;
 
@@ -210,8 +210,8 @@ header nav a {
 }
 
 .header-badge p {
-    position: absolute;
     display: flex;
+    position: absolute;
     align-items: center;
     justify-content: center;
     z-index: 1;
@@ -229,4 +229,39 @@ header nav a {
     line-height: 98%; /* 20.58px */
     letter-spacing: -0.21px;
     text-transform: uppercase;
+}
+
+/* ----- ABOUT SECTION ----- */
+.about-headline {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-right: 60px;
+    min-height: 760px;
+}
+
+.about-headline h1 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 200px;
+    white-space: nowrap;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 80%; /* 144px */
+    letter-spacing: -1.8px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.about-headline img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 530px;
+    height: 777px;
+    transform: translateY(-50%) rotate(8deg);
+    z-index: 2;
 }
