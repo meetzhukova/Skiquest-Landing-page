@@ -843,3 +843,103 @@ header nav a {
     letter-spacing: -0.24px;
     text-decoration: none;
 }
+
+/* ----- INSTRUCTOR SECTION ----- */
+.instructor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 170px;
+
+    width: 1280px;
+    min-height: 383px;
+    padding: 0 70px;
+
+    border-radius: 36px;
+    background: linear-gradient(84deg, #FFF -2.58%, #D2D2D2 102.82%);
+}
+
+.instr-text {
+    max-width: 730px;
+}
+
+.instr-text h2 {
+    color: #000;
+    font-family: "Roc Grotesk";
+    font-size: 80px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 78.4px */
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+
+    margin: 0;
+}
+
+.instr-text p {
+    color: #000;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 32.12px */
+    letter-spacing: -0.22px;
+    margin-top: 30px;
+}
+
+.instr-btn {
+    width: 285px;
+    height: 82px;
+
+    border-radius: 14px;
+    background: var(--Accent, #FF4D00);
+
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    left: 1050px;
+}
+
+.instr-btn a {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 35.04px */
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
+/* ----- INSTRUCTOR BADGE ----- */
+
+.inst-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 136px;
+    height: 136px;
+
+    border-radius: 50%;
+    background: var(--Accent, #FF4D00);
+    transform: rotate(18.082deg);
+
+    top: -40px;
+    right: 80px;
+   
+    color: #FFF;
+    text-align: center;
+    font-family: "Roc Grotesk";
+    font-size: 21px;
+    font-stretch: condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 20.58px */
+    letter-spacing: -0.21px;
+    text-transform: uppercase;
+}
