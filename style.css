@@ -368,3 +368,478 @@ header nav a {
 }
 
 /* ----- SKI PASSES ----- */
+.ski-passes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.ski-passes h1 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 180px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 80%; /* 144px */
+    letter-spacing: -1.8px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.all-passes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    column-gap: 74px;
+}
+
+/* ----- DAY PASS ----- */
+
+.day-pass {
+    position: relative;
+    width: 405px;
+    height: 542px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    padding-bottom: 30px;
+}
+
+.day-pass h2 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 60px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 58.8px */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.day-pass h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 160px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 156.8px */
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.day-pass nav {
+    margin-left: 48px;
+
+    position: absolute;
+    bottom: 140px;
+}
+
+.day-pass li {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 26.28px */
+    letter-spacing: -0.18px;
+}
+
+.day-pass-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 233px;
+    height: 69px;
+    border-radius: 14px;
+    border: 1px solid #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day-pass a {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 35.04px */
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
+/* ----- WEEKEND PASS ----- */
+.weekend-pass {
+    position: relative;
+    width: 405px;
+    height: 542px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    padding-bottom: 30px;
+}
+
+.weekend-pass h2 {
+    color: var(--Accent, #FF4D00);
+    font-family: "Roc Grotesk";
+    font-size: 60px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 58.8px */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.weekend-pass p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 98%; /* 19.6px */
+    letter-spacing: -0.2px;
+
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+.weekend-pass h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 160px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 156.8px */
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.weekend-pass nav {
+    margin-left: 48px;
+
+    position: absolute;
+    bottom: 140px;
+}
+
+.weekend-pass li {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 26.28px */
+    letter-spacing: -0.18px;
+}
+
+.weekend-pass-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 233px;
+    height: 69px;
+    border-radius: 14px;
+    border: 1px solid #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weekend-pass a {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 35.04px */
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
+/* ----- MONTHLY PASS ----- */
+.monthly-pass {
+    position: relative;
+    width: 405px;
+    height: 542px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    padding-bottom: 30px;
+}
+
+.monthly-pass h2 {
+    color: white;
+    font-family: "Roc Grotesk";
+    font-size: 60px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 58.8px */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.monthly-pass h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 160px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 156.8px */
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.monthly-pass nav {
+    margin-left: 48px;
+
+    position: absolute;
+    bottom: 140px;
+}
+
+.monthly-pass li {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 26.28px */
+    letter-spacing: -0.18px;
+}
+
+.monthly-pass-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 233px;
+    height: 69px;
+    border-radius: 14px;
+    border: 1px solid #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monthly-pass a {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 35.04px */
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
+/* ----- SEASONAL PASS ----- */
+.seasonal-pass {
+    position: relative;
+    width: 405px;
+    height: 542px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    padding-bottom: 30px;
+}
+
+.seasonal-pass h2 {
+    color: var(--Accent, #FF4D00);
+    font-family: "Roc Grotesk";
+    font-size: 60px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 58.8px */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.seasonal-pass p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 98%; /* 19.6px */
+    letter-spacing: -0.2px;
+
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+.seasonal-pass h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 160px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 156.8px */
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.seasonal-pass nav {
+    margin-left: 48px;
+
+    position: absolute;
+    bottom: 140px;
+}
+
+.seasonal-pass li {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 26.28px */
+    letter-spacing: -0.18px;
+}
+
+.seasonal-pass-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 233px;
+    height: 69px;
+    border-radius: 14px;
+    border: 1px solid #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seasonal-pass a {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 35.04px */
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
+/* ----- FAMILY PASS ----- */
+.family-pass {
+    position: relative;
+    width: 405px;
+    height: 542px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    padding-bottom: 30px;
+}
+
+.family-pass h2 {
+    color: white;
+    font-family: "Roc Grotesk";
+    font-size: 60px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 58.8px */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.family-pass h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 160px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 98%; /* 156.8px */
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.family-pass nav {
+    margin-left: 48px;
+
+    position: absolute;
+    bottom: 140px;
+}
+
+.family-pass li {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 26.28px */
+    letter-spacing: -0.18px;
+}
+
+.family-pass-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 233px;
+    height: 69px;
+    border-radius: 14px;
+    border: 1px solid #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.family-pass a {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%; /* 35.04px */
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
