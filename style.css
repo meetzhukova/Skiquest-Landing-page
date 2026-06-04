@@ -943,3 +943,151 @@ header nav a {
     letter-spacing: -0.21px;
     text-transform: uppercase;
 }
+
+/* ----- STATISTICS SECTION ----- */
+
+.stats {
+    margin-top: 170px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    column-gap: 74px;
+}
+
+.stats img {
+    width: 406px;
+    height: 596px;
+}
+
+.stats1 {
+    width: 410px;
+    height: 596px;
+
+    background: #303030;
+}
+
+.stats1 h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 80px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 82%; /* 65.6px */
+    letter-spacing: -0.8px;
+
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.stats1 p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 29.4px */
+    letter-spacing: -0.3px;
+
+    margin: 0;
+    padding-top: 26px;
+    padding-left: 30px;
+}
+
+.stats2 {
+    width: 410px;
+    height: 596px;
+
+    background: #303030;
+}
+
+.stats2 h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 80px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 82%; /* 65.6px */
+    letter-spacing: -0.8px;
+
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.stats3 {
+    width: 410px;
+    height: 596px;
+
+    background: #303030;
+}
+
+.stats3 h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 80px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 82%; /* 65.6px */
+    letter-spacing: -0.8px;
+
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.stats3 p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 29.4px */
+    letter-spacing: -0.3px;
+
+    margin: 0;
+    padding-top: 230px;
+    padding-left: 30px;
+}
+
+.stats4 {
+    width: 410px;
+    height: 596px;
+
+    background: #303030;
+}
+
+.stats4 p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%; /* 29.4px */
+    letter-spacing: -0.3px;
+
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.stats4 h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 80px;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    text-align: right;
+    font-weight: 750;
+    line-height: 82%; /* 65.6px */
+    letter-spacing: -0.8px;
+
+    margin: 0;
+    padding-top: 230px;
+    padding-right: 30px;
+}
