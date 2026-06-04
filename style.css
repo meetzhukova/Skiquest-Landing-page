@@ -1352,6 +1352,26 @@ header nav a {
 }
 
 /* ----- FOOTER ----- */
-.footer {
-    
+footer {
+    margin-top: 170px;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-social h3 {
+    color: #FFF;
+    font-family: "Roc Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-stretch: extra-condensed;
+    font-weight: 750;
+    line-height: 80%; /* 32px */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+
+    margin: 0;
 }
