@@ -14,3 +14,12 @@ document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// Fixed header background only after scroll
+const header = document.querySelector('.header');
+const scrollThreshold = 20;
+
+window.addEventListener('scroll', () => {
+    if (!header) return;
+    header.classList.toggle('scrolled', window.scrollY > scrollThreshold);
+});
