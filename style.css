@@ -494,7 +494,12 @@ header nav a {
     letter-spacing: -0.18px;
 }
 
-.day-pass-btn {
+.day-pass-btn,
+.weekend-pass-btn,
+.monthly-pass-btn,
+.seasonal-pass-btn,
+.family-pass-btn,
+.instr-btn {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -506,6 +511,28 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.instr-btn {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 285px;
+    height: 82px;
+    background: var(--Accent, #FF4D00);
+}
+
+.day-pass-btn:hover,
+.weekend-pass-btn:hover,
+.monthly-pass-btn:hover,
+.seasonal-pass-btn:hover,
+.family-pass-btn:hover,
+.instr-btn:hover {
+    background: #FF4D00;
+    border-color: #FF4D00;
+    transform: translateY(-2px);
 }
 
 .day-pass a {
@@ -868,6 +895,13 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.family-pass-btn:hover {
+    background: #FF4D00;
+    border-color: #FF4D00;
+    transform: translateY(-2px);
 }
 
 .family-pass a {
